@@ -21,6 +21,8 @@ sass:
   sass_dir: _sass
 include:
   - _site
+plugins:
+  - jekyll-redirect-from  
 defaults:
   -
     scope:
