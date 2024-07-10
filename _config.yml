@@ -8,7 +8,7 @@ description: Lakókocsis nyaralás Görögországban – 3 darab jól felszerelt
 author: László István
 
 # Your email if you want it to be linked on the contact page
-author_email: laszlo1965@gmail.com 
+author_email: laszlo1965@gmail.com
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: https://korinos.hu/
@@ -21,3 +21,10 @@ sass:
   sass_dir: _sass
 include:
   - _site
+defaults:
+  # ... (other settings)
+  -
+    scope:
+      path: /videos/megas/
+    values:
+      redirect: https://youtu.be/jvWN71nXd08
