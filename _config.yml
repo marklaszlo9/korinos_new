@@ -20,9 +20,9 @@ exclude: [README.markdown]
 sass:
   sass_dir: _sass
 include:
-  - _site
+  - _redirects
 plugins:
-  - jekyll-redirect-from  
+  - jekyll-redirect-from
 defaults:
   -
     scope:
